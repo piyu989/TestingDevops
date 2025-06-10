@@ -19,25 +19,4 @@ public class DemoApplication {
 			return "Hello, World!";
 		}
 	}
-	@RestController
-	static class HelloController {
-		@GetMapping("/hell")
-		public String sayHello() {
-			return "Hello, !";
-		}
-	}
-	@RestController
-	static class HelloController {
-		@GetMapping("/")
-		public String sayHello() {
-			return "root site";
-		}
-	}
-	@RestController
-	static class HelloController {
-		@GetMapping("/about")
-		public String sayHello() {
-			return "about, World!";
-		}
-	}
 }
