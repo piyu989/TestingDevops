@@ -16,21 +16,21 @@ public class DemoApplication {
 	static class HelloController {
 		@GetMapping("/hello")
 		public String sayHello() {
-			return "Hello, World!"
+			return "Hello, World!";
 		}
 	}
 	@RestController
 	static class HelloController {
 		@GetMapping("/hell")
 		public String sayHello() {
-			return "Hello, !"
+			return "Hello, !";
 		}
 	}
 	@RestController
 	static class HelloController {
 		@GetMapping("/")
 		public String sayHello() {
-			return "root site"
+			return "root site";
 		}
 	}
 	@RestController
