@@ -16,25 +16,25 @@ public class DemoApplication {
 	static class HelloController {
 		@GetMapping("/hello")
 		public String sayHello() {
-			return "Hello, World!"
+			return "Hello, World!";
 		}
 	}
 	@RestController
-	static class HelloController {
+	static class HelloControllerr {
 		@GetMapping("/hell")
 		public String sayHello() {
-			return "Hello, !"
+			return "Hello, !";
 		}
 	}
 	@RestController
-	static class HelloController {
+	static class HelloControlwler {
 		@GetMapping("/")
 		public String sayHello() {
-			return "root site"
+			return "root site";
 		}
 	}
 	@RestController
-	static class HelloController {
+	static class HellwwoController {
 		@GetMapping("/about")
 		public String sayHello() {
 			return "about, World!";
