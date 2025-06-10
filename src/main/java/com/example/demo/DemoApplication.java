@@ -19,4 +19,11 @@ public class DemoApplication {
 			return "Hello, World!";
 		}
 	}
+	@RestController
+	static class HelloController {
+		@GetMapping("/about")
+		public String sayHello() {
+			return "about, World!";
+		}
+	}
 }
