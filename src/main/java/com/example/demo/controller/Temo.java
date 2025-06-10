@@ -13,4 +13,8 @@ public class Temo {
     public String sayHell() {
         return "Hello";
     }
+    @GetMapping("/say")
+    public String say() {
+        return "day";
+    }
 }
