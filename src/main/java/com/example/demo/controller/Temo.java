@@ -17,4 +17,8 @@ public class Temo {
     public String say() {
         return "day";
     }
+     @GetMapping("/ssay")
+    public String ssay() {
+        return "daysss";
+    }
 }
